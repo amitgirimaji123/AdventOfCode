@@ -1,201 +1,301 @@
 Game 1: 13 red, 18 green; 5 green, 3 red, 5 blue; 5 green, 9 red, 6 blue; 3 blue, 3 green
-False
+13 , 18 , 6
+1404
 Game 2: 2 green, 3 blue, 5 red; 9 green, 4 red, 2 blue; 4 green, 3 blue; 2 blue, 3 red; 5 red, 3 blue, 9 green; 9 green, 5 red, 2 blue
-True
+5 , 9 , 3
+135
 Game 3: 12 green, 3 red, 3 blue; 2 blue, 5 green, 2 red; 2 red, 3 blue, 11 green; 2 red, 8 green, 7 blue
-True
+3 , 12 , 7
+252
 Game 4: 1 green, 2 blue; 7 green, 13 red; 2 blue, 5 green, 7 red; 6 green, 2 red
-False
+13 , 7 , 2
+182
 Game 5: 6 blue, 4 green; 8 blue, 7 green; 1 red, 10 blue
-True
+1 , 7 , 10
+70
 Game 6: 4 red, 4 blue, 2 green; 8 green, 1 blue, 8 red; 9 green, 1 red, 3 blue
-True
+8 , 9 , 4
+288
 Game 7: 3 red, 12 green, 4 blue; 1 blue, 3 red, 6 green; 4 blue, 3 red, 15 green; 11 green, 2 blue, 2 red
-False
+3 , 15 , 4
+180
 Game 8: 13 blue, 7 green, 8 red; 5 green, 8 blue, 2 red; 5 red, 6 blue, 7 green; 6 green, 6 red, 3 blue; 7 blue, 8 red, 6 green
-True
+8 , 7 , 13
+728
 Game 9: 4 blue, 1 green, 4 red; 16 red, 1 green, 7 blue; 11 red, 3 green, 7 blue
-False
+16 , 3 , 7
+336
 Game 10: 5 green, 1 red; 5 green, 3 blue; 1 red, 7 green, 3 blue; 1 blue, 6 green; 2 green, 4 blue
-True
+1 , 7 , 4
+28
 Game 11: 10 green, 2 blue, 2 red; 14 green, 1 blue, 3 red; 13 green; 3 green, 2 red; 3 red, 1 blue, 2 green; 1 red, 10 green, 2 blue
-False
+3 , 14 , 2
+84
 Game 12: 9 green, 2 blue; 11 green, 1 blue; 2 red, 1 blue; 1 blue, 2 red, 3 green; 1 blue, 2 red, 3 green
-True
+2 , 11 , 2
+44
 Game 13: 11 blue, 3 red, 8 green; 9 red, 7 blue; 7 blue, 4 red
-True
+9 , 8 , 11
+792
 Game 14: 17 blue, 2 red; 1 green, 13 blue, 1 red; 4 blue, 1 red, 4 green; 2 blue, 5 red, 13 green; 3 blue, 4 green, 6 red; 9 green, 14 blue, 6 red
-False
+6 , 13 , 17
+1326
 Game 15: 7 green, 2 blue, 3 red; 4 red, 18 green; 8 green, 1 blue; 3 red, 15 green, 2 blue; 1 red, 15 green; 9 green, 3 red, 1 blue
-False
+4 , 18 , 2
+144
 Game 16: 10 red, 19 blue, 5 green; 12 red, 5 blue; 6 red, 3 green, 14 blue; 8 red, 10 blue, 6 green; 7 green, 10 red, 17 blue
-False
+12 , 7 , 19
+1596
 Game 17: 3 green, 3 red, 1 blue; 3 blue, 1 green, 2 red; 4 green, 3 red, 2 blue
-True
+3 , 4 , 3
+36
 Game 18: 1 red, 2 blue; 1 green, 4 blue; 1 blue; 5 blue; 1 green, 3 red, 6 blue
-True
+3 , 1 , 6
+18
 Game 19: 3 blue, 5 red, 8 green; 10 red, 6 blue, 11 green; 5 blue, 7 red, 8 green; 9 blue, 6 green, 5 red; 8 red, 12 green, 8 blue; 1 blue, 5 green, 10 red
-True
+10 , 12 , 9
+1080
 Game 20: 16 blue, 2 green; 10 green, 1 red, 4 blue; 13 green, 5 red, 9 blue
-False
+5 , 13 , 16
+1040
 Game 21: 1 blue, 1 green, 14 red; 2 blue; 5 green, 1 blue; 2 green, 11 red; 2 red, 4 green; 2 green, 16 red
-False
+16 , 5 , 2
+160
 Game 22: 1 green, 10 red, 4 blue; 1 green, 4 blue, 8 red; 2 blue, 8 red; 4 green, 14 red; 1 blue, 5 red, 2 green
-False
+14 , 4 , 4
+224
 Game 23: 17 green, 3 red, 16 blue; 9 green, 15 red; 3 red, 8 blue, 15 green
-False
+15 , 17 , 16
+4080
 Game 24: 1 green, 1 blue; 2 blue, 1 green, 2 red; 3 green, 1 blue, 1 red; 3 blue, 1 red; 2 green, 5 blue
-True
+2 , 3 , 5
+30
 Game 25: 11 red, 2 green; 7 red, 6 green; 10 red, 1 blue, 8 green; 8 green, 4 red; 6 green, 10 red; 2 blue, 7 red
-True
+11 , 8 , 2
+176
 Game 26: 2 green, 2 blue, 8 red; 1 blue, 1 red, 6 green; 9 red, 6 green, 2 blue
-True
+9 , 6 , 2
+108
 Game 27: 5 red, 7 blue, 3 green; 3 blue, 1 red; 1 green, 1 red, 9 blue
-True
+5 , 3 , 9
+135
 Game 28: 17 red, 5 green, 10 blue; 3 red, 14 blue, 1 green; 11 blue, 11 green
-False
+17 , 11 , 14
+2618
 Game 29: 16 red, 4 green, 4 blue; 3 green, 5 blue, 11 red; 7 blue, 8 red, 1 green; 1 green, 10 red, 4 blue; 2 green, 4 blue, 8 red
-False
+16 , 4 , 7
+448
 Game 30: 3 green, 6 blue; 18 green, 3 blue; 14 green, 11 blue; 7 blue, 2 red, 17 green; 1 red, 12 green, 7 blue
-False
+2 , 18 , 11
+396
 Game 31: 11 red, 2 green, 3 blue; 10 green, 11 blue, 15 red; 12 green, 17 blue, 5 red; 5 green, 2 red, 12 blue; 13 blue, 13 green, 4 red
-False
+15 , 13 , 17
+3315
 Game 32: 4 red, 2 blue, 5 green; 7 blue, 15 red; 11 blue, 4 green, 8 red
-False
+15 , 5 , 11
+825
 Game 33: 18 blue, 3 green, 3 red; 3 green, 6 red; 2 blue, 4 red, 1 green; 3 green, 5 red, 3 blue
-False
+6 , 3 , 18
+324
 Game 34: 5 red, 2 blue, 16 green; 9 red, 10 blue, 3 green; 8 red, 10 green, 13 blue
-False
+9 , 16 , 13
+1872
 Game 35: 7 blue, 5 red; 3 red, 1 blue; 4 blue, 7 red, 1 green; 4 red, 4 blue, 1 green; 3 blue, 7 red; 4 red, 1 green, 3 blue
-True
+7 , 1 , 7
+49
 Game 36: 14 blue; 10 blue, 1 green; 10 blue, 4 green; 4 blue, 1 green, 1 red; 1 red, 6 blue, 4 green; 1 green, 1 red, 11 blue
-True
+1 , 4 , 14
+56
 Game 37: 8 red, 13 green, 5 blue; 11 red, 16 green, 8 blue; 2 green, 10 blue, 11 red
-False
+11 , 16 , 10
+1760
 Game 38: 2 red, 1 blue, 10 green; 7 red, 6 blue, 14 green; 18 red, 1 blue, 5 green; 5 green, 5 blue, 13 red; 14 red, 5 green; 15 green, 13 red, 2 blue
-False
+18 , 15 , 6
+1620
 Game 39: 1 blue, 5 red; 9 red, 9 green; 4 blue, 10 green, 4 red; 3 green, 11 red, 1 blue; 2 green, 11 red, 4 blue
-True
+11 , 10 , 4
+440
 Game 40: 9 blue, 4 green; 12 green, 1 red; 2 red, 15 green, 10 blue
-False
+2 , 15 , 10
+300
 Game 41: 1 blue, 14 red, 12 green; 16 green, 2 blue, 3 red; 6 green, 9 red
-False
+14 , 16 , 2
+448
 Game 42: 4 green, 13 red, 9 blue; 9 green, 9 red, 4 blue; 7 blue, 10 red, 9 green; 4 green, 18 blue, 14 red; 9 blue, 7 green, 2 red
-False
+14 , 9 , 18
+2268
 Game 43: 7 red, 6 blue; 4 green; 3 red, 6 green; 7 blue, 6 green, 8 red; 9 green, 7 blue, 7 red; 5 blue, 5 green, 6 red
-True
+8 , 9 , 7
+504
 Game 44: 5 red, 8 blue; 2 red, 5 green; 6 green, 11 blue, 2 red; 1 green, 1 blue, 2 red
-True
+5 , 6 , 11
+330
 Game 45: 3 blue, 7 green, 1 red; 5 red, 1 blue; 2 blue, 3 red; 8 green, 5 red
-True
+5 , 8 , 3
+120
 Game 46: 4 red, 4 blue, 17 green; 1 blue, 5 green, 1 red; 1 red, 1 blue, 7 green; 18 green, 7 blue
-False
+4 , 18 , 7
+504
 Game 47: 14 red, 3 green, 2 blue; 4 green, 4 red, 2 blue; 13 red, 1 blue
-False
+14 , 4 , 2
+112
 Game 48: 5 red, 12 blue, 2 green; 3 blue, 1 red, 2 green; 10 blue, 7 red
-True
+7 , 2 , 12
+168
 Game 49: 6 blue, 11 red; 11 red, 17 blue, 11 green; 16 blue, 12 green, 6 red
-False
+11 , 12 , 17
+2244
 Game 50: 12 blue, 3 green, 1 red; 3 green, 10 blue, 3 red; 11 blue, 3 red
-True
+3 , 3 , 12
+108
 Game 51: 12 green, 1 blue, 8 red; 6 blue, 1 green, 9 red; 17 red, 5 blue; 7 blue, 9 green, 9 red; 13 green, 10 red, 2 blue
-False
+17 , 13 , 7
+1547
 Game 52: 5 blue, 1 green; 1 red, 1 green, 3 blue; 8 blue, 1 green; 1 green, 7 blue; 3 blue; 1 red, 6 blue
-True
+1 , 1 , 8
+8
 Game 53: 11 green, 5 red; 16 green, 6 blue; 4 red, 19 green, 4 blue
-False
+5 , 19 , 6
+570
 Game 54: 6 green, 4 blue, 8 red; 7 red, 6 green, 5 blue; 5 blue, 4 red; 5 blue, 14 red
-False
+14 , 6 , 5
+420
 Game 55: 11 blue, 1 green; 2 red, 5 blue, 1 green; 10 blue, 1 green; 11 blue; 2 green, 2 red, 5 blue
-True
+2 , 2 , 11
+44
 Game 56: 1 red, 9 blue, 1 green; 2 red, 8 blue; 1 green, 9 blue, 10 red; 5 blue, 1 green; 15 blue, 1 red; 12 blue, 4 red
-False
+10 , 1 , 15
+150
 Game 57: 1 green, 17 blue; 10 blue, 2 green; 2 red, 16 blue; 6 green, 15 blue; 5 green; 2 red, 1 green
-False
+2 , 6 , 17
+204
 Game 58: 2 blue, 4 green, 2 red; 5 blue; 5 red, 3 green, 2 blue; 5 red, 2 green, 5 blue; 7 green, 3 red, 4 blue; 4 red
-True
+5 , 7 , 5
+175
 Game 59: 8 blue, 2 red, 2 green; 15 blue, 1 green, 4 red; 9 blue, 1 red; 3 green, 5 red, 5 blue
-False
+5 , 3 , 15
+225
 Game 60: 3 red, 2 blue, 6 green; 1 red, 5 green; 2 blue, 10 green; 6 green, 2 red
-True
+3 , 10 , 2
+60
 Game 61: 6 green, 4 blue; 1 red, 4 blue, 15 green; 1 blue, 16 green, 3 red; 6 red, 12 green, 2 blue; 3 red, 14 green, 1 blue; 3 red, 2 blue, 9 green
-False
+6 , 16 , 4
+384
 Game 62: 1 green, 2 red; 4 red; 1 green, 4 red, 1 blue; 1 red, 1 blue, 1 green
-True
+4 , 1 , 1
+4
 Game 63: 8 green, 4 red, 4 blue; 5 red, 4 blue, 8 green; 3 green, 1 blue
-True
+5 , 8 , 4
+160
 Game 64: 5 blue, 2 green, 5 red; 3 green, 2 blue, 1 red; 6 blue, 2 red, 1 green; 2 green, 2 blue, 3 red; 3 blue, 1 red
-True
+5 , 3 , 6
+90
 Game 65: 2 red, 7 green, 5 blue; 8 blue, 3 green, 4 red; 1 red, 6 green, 1 blue
-True
+4 , 7 , 8
+224
 Game 66: 1 green, 6 red; 5 red, 1 green, 1 blue; 4 red, 1 blue, 1 green; 1 blue, 2 red, 1 green; 1 blue, 5 red; 1 blue, 8 red
-True
+8 , 1 , 1
+8
 Game 67: 6 red, 8 blue, 8 green; 5 green, 2 red, 10 blue; 4 red, 1 green; 7 blue, 2 green
-True
+6 , 8 , 10
+480
 Game 68: 7 green, 9 red, 15 blue; 4 green, 6 red, 3 blue; 1 blue, 5 green, 4 red; 9 green, 14 red, 6 blue; 8 blue, 15 red, 4 green; 7 green, 14 blue, 6 red
-False
+15 , 9 , 15
+2025
 Game 69: 4 green; 2 blue; 4 green, 8 blue, 11 red; 3 green, 9 red, 4 blue; 1 red, 2 blue; 2 green, 5 blue, 11 red
-True
+11 , 4 , 8
+352
 Game 70: 6 blue, 16 green, 4 red; 6 green, 13 red, 2 blue; 7 green, 1 red, 2 blue; 8 green, 4 blue, 1 red; 10 red, 11 green
-False
+13 , 16 , 6
+1248
 Game 71: 6 blue, 7 red; 10 blue, 2 green, 4 red; 12 red, 10 blue, 1 green
-True
+12 , 2 , 10
+240
 Game 72: 13 red, 13 blue; 6 red, 10 blue, 7 green; 3 blue, 5 green, 4 red; 8 green, 9 blue
-False
+13 , 8 , 13
+1352
 Game 73: 1 red, 1 green, 8 blue; 1 green, 8 blue; 2 green, 6 blue; 2 blue; 1 red, 12 blue; 12 blue, 3 green
-True
+1 , 3 , 12
+36
 Game 74: 2 blue, 1 green, 1 red; 3 blue, 1 red, 1 green; 3 blue, 2 red; 3 blue, 1 red; 1 green
-True
+2 , 1 , 3
+6
 Game 75: 10 red, 1 green, 4 blue; 12 red, 11 blue, 9 green; 18 green, 14 red, 5 blue
-False
+14 , 18 , 11
+2772
 Game 76: 4 blue, 3 green, 11 red; 4 blue, 1 green, 12 red; 11 blue, 2 green, 4 red; 2 blue, 2 green, 11 red; 12 red, 1 blue; 4 red, 2 green, 15 blue
-False
+12 , 3 , 15
+540
 Game 77: 2 red, 10 blue, 6 green; 6 blue, 2 red, 8 green; 1 red, 9 green, 7 blue
-True
+2 , 9 , 10
+180
 Game 78: 3 green, 10 red; 2 blue, 4 red, 3 green; 8 red, 3 blue, 4 green; 1 blue, 7 red
-True
+10 , 4 , 3
+120
 Game 79: 4 green, 2 red; 2 red, 14 green; 1 blue, 5 green, 8 red; 4 red, 20 green; 3 green, 1 blue, 8 red; 4 green, 1 blue
-False
+8 , 20 , 1
+160
 Game 80: 2 green; 3 green, 13 red, 10 blue; 6 blue, 10 red, 1 green; 10 green, 12 red, 3 blue; 10 blue, 17 red, 5 green; 8 red, 2 blue, 6 green
-False
+17 , 10 , 10
+1700
 Game 81: 4 green, 2 blue, 4 red; 16 red, 1 blue, 20 green; 7 blue, 10 red, 9 green; 7 blue, 2 green, 14 red
-False
+16 , 20 , 7
+2240
 Game 82: 4 blue, 8 green, 5 red; 14 red, 8 blue, 1 green; 11 red, 13 green
-False
+14 , 13 , 8
+1456
 Game 83: 2 blue, 2 green, 10 red; 10 green, 4 red, 3 blue; 11 green, 14 red, 4 blue; 2 blue, 11 red; 3 blue, 1 green, 4 red
-False
+14 , 11 , 4
+616
 Game 84: 12 blue, 9 green, 10 red; 1 red, 6 green, 4 blue; 7 red, 3 green, 16 blue; 3 green, 3 blue
-False
+10 , 9 , 16
+1440
 Game 85: 2 red, 4 blue; 4 blue, 1 green, 6 red; 9 blue, 1 red; 1 green, 4 blue, 10 red; 5 green, 7 red, 17 blue
-False
+10 , 5 , 17
+850
 Game 86: 2 red, 3 blue, 1 green; 2 blue, 2 red, 2 green; 10 blue, 2 green; 5 green, 4 red, 6 blue
-True
+4 , 5 , 10
+200
 Game 87: 1 red, 7 blue, 9 green; 3 green, 2 blue; 1 red, 4 blue, 10 green; 10 green, 7 blue, 1 red; 6 blue, 9 green; 9 blue, 7 green, 1 red
-True
+1 , 10 , 9
+90
 Game 88: 1 blue, 14 red, 9 green; 4 green, 9 red; 8 green, 1 blue, 10 red
-False
+14 , 9 , 1
+126
 Game 89: 13 red, 1 green; 2 blue, 10 red; 1 green, 3 blue, 13 red; 1 green, 14 red, 3 blue; 2 green, 6 red; 1 green, 12 red
-False
+14 , 2 , 3
+84
 Game 90: 1 red, 2 blue, 9 green; 1 blue, 3 red, 2 green; 10 green, 9 red; 1 red, 9 green, 4 blue; 3 blue, 13 green, 13 red
-False
+13 , 13 , 4
+676
 Game 91: 2 red, 8 green, 8 blue; 3 green, 2 red, 6 blue; 5 green, 4 red
-True
+4 , 8 , 8
+256
 Game 92: 8 green, 12 blue, 4 red; 7 red, 4 green; 4 blue, 7 green, 7 red; 7 blue, 5 green
-True
+7 , 8 , 12
+672
 Game 93: 1 green, 1 red, 2 blue; 3 green, 1 red, 3 blue; 1 red, 8 blue; 1 green, 13 blue; 1 red, 4 blue, 4 green
-True
+1 , 4 , 13
+52
 Game 94: 2 blue, 7 red, 17 green; 2 green, 1 blue, 5 red; 3 blue, 7 green, 1 red; 6 red, 1 blue, 1 green; 1 green, 1 blue, 1 red
-False
+7 , 17 , 3
+357
 Game 95: 4 blue, 3 green, 4 red; 17 red, 2 blue; 6 blue, 16 green, 15 red; 7 blue, 17 green; 1 red, 3 green, 3 blue; 7 red, 14 green, 4 blue
-False
+17 , 17 , 7
+2023
 Game 96: 6 red, 3 blue; 7 green, 5 blue, 10 red; 9 green, 1 blue; 6 blue, 1 red, 12 green; 3 blue, 10 green
-True
+10 , 12 , 6
+720
 Game 97: 3 green, 1 red, 13 blue; 1 red, 8 green, 2 blue; 1 green, 2 blue, 2 red; 1 red, 4 green, 9 blue
-True
+2 , 8 , 13
+208
 Game 98: 1 green, 8 red, 7 blue; 8 blue, 8 red, 3 green; 1 blue, 2 red; 4 red, 7 blue; 3 green, 3 blue, 3 red
-True
+8 , 3 , 8
+192
 Game 99: 9 blue, 14 red; 3 blue, 10 red, 5 green; 3 blue, 3 green, 6 red
-False
+14 , 5 , 9
+630
 Game 100: 12 blue, 2 green; 2 green, 4 red, 13 blue; 9 blue, 1 red, 2 green; 2 green, 3 red, 1 blue
-True
-2449
+4 , 2 , 13
+104
+63981
