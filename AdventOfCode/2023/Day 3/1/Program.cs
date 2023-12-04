@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -13,7 +11,6 @@ namespace AdventOfCode
         //Day 3-1 
 
         private static long Sum = 0;
-        private static Dictionary<Point, List<long>> StarPointNumbers = new Dictionary<Point, List<long>>();
         private static List<int[]> combinations = new List<int[]>()
         {
             new int[] { 1 , 0 },
@@ -30,17 +27,6 @@ namespace AdventOfCode
         {
             IEnumerable<string> codes = File.ReadLines("Input.txt");
             getNumbers(codes);
-
-            foreach (var starPoints in StarPointNumbers)
-            {
-                if(starPoints.Value.Count == 2)
-                {
-                    long num = starPoints.Value[0] * starPoints.Value[1];
-                    Sum += num;
-                }
-            }
-
-
             Console.WriteLine(Sum);
             Console.ReadKey();
         }
@@ -58,45 +44,27 @@ namespace AdventOfCode
                     {
                         continue;
                     }
-                    string numberStr = _getfullNumIfAdjSymbol(codesArray, i, ref j, out Point? starPoint);
+                    string numberStr = _getfullNumIfAdjSymbol(codesArray, i, ref j);
                     if (numberStr != null)
                     {
                         Console.WriteLine($"Line {i}: {numberStr}");
-                        Console.WriteLine($"starPoint : {starPoint}");
-                        if (!StarPointNumbers.ContainsKey(starPoint.Value))
-                        {
-                            StarPointNumbers.Add(starPoint.Value, new List<long>());
-                        }
-
-                        long number = Convert.ToInt64(numberStr);
-                        StarPointNumbers[starPoint.Value].Add(number);
+                        Sum += Convert.ToInt64(numberStr);
                     }
                 }
             }
         }
 
-        private static string _getfullNumIfAdjSymbol(char[][] codesArray, int i, ref int j, out Point? starPoint)
+        private static string _getfullNumIfAdjSymbol(char[][] codesArray, int i, ref int j)
         {
-            Point? localStarPoint = null;
             string numStr = "";
             bool hasAdjacentSymbol = false;
             do
             {
                 numStr = numStr + codesArray[i][j];
-                hasAdjacentSymbol |= _checkAdjacentStar(codesArray, i, j, out Point? starPoint2);
+                hasAdjacentSymbol |= _checkAdjacentSymbol(codesArray, i, j);
                 j++;
-                if (starPoint2 != null)
-                {
-                    if (localStarPoint != null && starPoint2 != null && localStarPoint != starPoint2)
-                    {
-                        Debug.Assert(false);
-                    }
-                    localStarPoint = starPoint2;
-                }
-            } while (j < codesArray[i].Length && char.IsDigit(codesArray[i][j]));
+            } while (j < codesArray[i].Length &&char.IsDigit(codesArray[i][j]));
 
-
-            starPoint = localStarPoint;
             if (hasAdjacentSymbol)
             {
                 return numStr;
@@ -107,10 +75,9 @@ namespace AdventOfCode
             }
         }
 
-
-        private static bool _checkAdjacentStar(char[][] codesArray, int i, int j, out Point? starPoint)
+       
+        private static bool _checkAdjacentSymbol(char[][] codesArray, int i, int j)
         {
-            starPoint = null;
             bool hasSymbol = false;
             foreach (int[] combination in combinations)
             {
@@ -121,10 +88,9 @@ namespace AdventOfCode
                     continue;
                 }
                 char ch = codesArray[i2][j2];
-                if (ch == '*')
+                if (ch != '.' && !char.IsLetterOrDigit(ch))
                 {
                     hasSymbol = true;
-                    starPoint = new Point(i2, j2);
                     break;
                 }
             }

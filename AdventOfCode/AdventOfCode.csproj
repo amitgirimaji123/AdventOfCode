@@ -6,8 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="Sample.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <Compile Remove="2023\**" />
+    <EmbeddedResource Remove="2023\**" />
+    <None Remove="2023\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
