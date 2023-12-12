@@ -1,5 +1,0 @@
-C:\Amit Drive\Projects\AdventOfCode\AdventOfCode\bin\Release\net5.0>AdventOfCode.exe
-time 41968894, dist 214178911271055, totalPoss 30077773
-Result = 30077773
-Elapsed time = 92.6836ms
-Elapsed time = 0.0015447266666666667mins
